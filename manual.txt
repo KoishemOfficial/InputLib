@@ -1,0 +1,41 @@
+This datapack is written by me - Koishem, specifically for TF Studios
+
+Telegram TF Studios: https://t.me/timfilm_studios
+My discord: koishem
+
+execute as <@player> run function inputs:method/check
+execute as <@player> run function inputs:method/toggle_lock {arg:}    w a s d ctrl shift space
+
+execute as <@player> run function inputs:lock/w
+execute as <@player> run function inputs:lock/a
+execute as <@player> run function inputs:lock/s
+execute as <@player> run function inputs:lock/d
+execute as <@player> run function inputs:lock/ctrl
+execute as <@player> run function inputs:lock/shift
+execute as <@player> run function inputs:lock/space
+function inputs:lock/lock_all
+
+execute as <@player> run function inputs:unlock/w
+execute as <@player> run function inputs:unlock/a
+execute as <@player> run function inputs:unlock/s
+execute as <@player> run function inputs:unlock/d
+execute as <@player> run function inputs:unlock/ctrl
+execute as <@player> run function inputs:unlock/shift
+execute as <@player> run function inputs:unlock/space
+function inputs:unlock/unlock_all
+
+execute as <@player> if function inputs:trigger/w
+execute as <@player> if function inputs:trigger/a
+execute as <@player> if function inputs:trigger/s
+execute as <@player> if function inputs:trigger/d
+execute as <@player> if function inputs:trigger/ctrl
+execute as <@player> if function inputs:trigger/shift
+execute as <@player> if function inputs:trigger/space
+
+execute as <@player> if function inputs:trigger/single/w
+execute as <@player> if function inputs:trigger/single/a
+execute as <@player> if function inputs:trigger/single/s
+execute as <@player> if function inputs:trigger/single/d
+execute as <@player> if function inputs:trigger/single/ctrl
+execute as <@player> if function inputs:trigger/single/shift
+execute as <@player> if function inputs:trigger/single/space
