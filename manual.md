@@ -1,17 +1,32 @@
-This datapack is written by me - Koishem, specifically for TF Studios
+# InputLib v. 1.1 by **Koishem**
 
-Telegram TF Studios: https://t.me/timfilm_studios
-My discord: koishem
+This datapack is written by me - **Koishem**, specifically for TF Studios and my purposes
 
------------------------------------------------------------------------
+My discord: **koishem**\
+My telegram: **@KoishemOff**\
+My github: **[Link](https://github.com/KoishemOfficial)**
 
-METHODS
+TF Studios: **[Website](https://timfilm-studios.github.io/official)**
 
+## Navigation
+
+- [Methods](#methods)
+- [Locks](#locks)
+- [Unlocks](#unlocks)
+- [Trigger](#trigger)
+- [Single Triggers](#single-triggers)
+
+---
+
+## Methods
+
+```mcfunction
 execute as <@player> run function inputs:method/check
 execute as <@player> run function inputs:method/toggle_lock {arg:<input>}
+```
+## Locks
 
-LOCKS
-
+```mcfunction
 execute as <@player> run function inputs:lock/w
 execute as <@player> run function inputs:lock/a
 execute as <@player> run function inputs:lock/s
@@ -29,10 +44,12 @@ execute as <@player> run function inputs:lock/slot6
 execute as <@player> run function inputs:lock/slot7
 execute as <@player> run function inputs:lock/slot8
 execute as <@player> run function inputs:lock/slot9
+
 function inputs:lock/lock_all
+```
+## Unlocks
 
-UNLOCKS
-
+```mcfunction
 execute as <@player> run function inputs:unlock/w
 execute as <@player> run function inputs:unlock/a
 execute as <@player> run function inputs:unlock/s
@@ -50,10 +67,12 @@ execute as <@player> run function inputs:unlock/slot6
 execute as <@player> run function inputs:unlock/slot7
 execute as <@player> run function inputs:unlock/slot8
 execute as <@player> run function inputs:unlock/slot9
+
 function inputs:unlock/unlock_all
+```
+## Trigger
 
-TRIGGERS
-
+```mcfunction
 execute as <@player> if function inputs:trigger/w
 execute as <@player> if function inputs:trigger/a
 execute as <@player> if function inputs:trigger/s
@@ -71,9 +90,11 @@ execute as <@player> if function inputs:trigger/slot6
 execute as <@player> if function inputs:trigger/slot7
 execute as <@player> if function inputs:trigger/slot8
 execute as <@player> if function inputs:trigger/slot9
+```
 
-SINGLE TRIGGERS
+## Single Triggers
 
+```mcfunction
 execute as <@player> if function inputs:trigger/single/w
 execute as <@player> if function inputs:trigger/single/a
 execute as <@player> if function inputs:trigger/single/s
@@ -91,3 +112,4 @@ execute as <@player> if function inputs:trigger/single/slot6
 execute as <@player> if function inputs:trigger/single/slot7
 execute as <@player> if function inputs:trigger/single/slot8
 execute as <@player> if function inputs:trigger/single/slot9
+```
