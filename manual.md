@@ -1,4 +1,4 @@
-# InputLib v. 1.1 by **Koishem**
+# InputLib v. 1.2 by **Koishem**
 
 This datapack is written by me - **Koishem**, specifically for TF Studios and my purposes
 
@@ -23,6 +23,9 @@ TF Studios: **[Website](https://timfilm-studios.github.io/official)**
 ```mcfunction
 execute as <@player> run function inputs:method/check
 execute as <@player> run function inputs:method/toggle_lock {arg:<input>}
+execute as <@player> run function inputs:method/check_chat
+execute as <@player> run function inputs:method/check_actionbar
+execute as <@player> run function inputs:method/check_trigger
 ```
 ## Locks
 
