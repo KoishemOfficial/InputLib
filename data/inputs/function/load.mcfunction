@@ -1,5 +1,4 @@
-# Startup
-scoreboard objectives add inputs dummy
+# Startup 
 scoreboard objectives add inputs.load minecraft.custom:minecraft.leave_game
 scoreboard objectives add inputs.w_lock dummy
 scoreboard objectives add inputs.a_lock dummy
@@ -36,6 +35,3 @@ scoreboard objectives add inputs.slot6_trigger dummy
 scoreboard objectives add inputs.slot7_trigger dummy
 scoreboard objectives add inputs.slot8_trigger dummy
 scoreboard objectives add inputs.slot9_trigger dummy
-
-# Default values
-scoreboard players set .one inputs 1
