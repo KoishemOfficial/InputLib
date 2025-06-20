@@ -1,5 +1,3 @@
-scoreboard objectives remove inputs
-scoreboard objectives remove inputs.load
 scoreboard objectives remove inputs.w_lock
 scoreboard objectives remove inputs.a_lock
 scoreboard objectives remove inputs.s_lock

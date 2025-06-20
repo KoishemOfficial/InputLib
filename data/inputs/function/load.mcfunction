@@ -1,5 +1,4 @@
 # Startup 
-scoreboard objectives add inputs.load minecraft.custom:minecraft.leave_game
 scoreboard objectives add inputs.w_lock dummy
 scoreboard objectives add inputs.a_lock dummy
 scoreboard objectives add inputs.s_lock dummy

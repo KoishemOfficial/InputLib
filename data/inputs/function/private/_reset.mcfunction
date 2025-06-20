@@ -15,6 +15,3 @@ execute unless entity @s[nbt={SelectedItemSlot:5}] run scoreboard players set @s
 execute unless entity @s[nbt={SelectedItemSlot:6}] run scoreboard players set @s inputs.slot7_trigger 0
 execute unless entity @s[nbt={SelectedItemSlot:7}] run scoreboard players set @s inputs.slot8_trigger 0
 execute unless entity @s[nbt={SelectedItemSlot:8}] run scoreboard players set @s inputs.slot9_trigger 0
-
-execute if score @s inputs.load matches 1 run function inputs:lock/lock_all
-execute if score @s inputs.load matches 1 run scoreboard players set @s inputs.load -1
