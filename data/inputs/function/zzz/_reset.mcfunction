@@ -1,0 +1,16 @@
+execute unless entity @s[predicate=inputs:forward] run tag @s remove inputs.forward_active
+execute unless entity @s[predicate=inputs:left] run tag @s remove inputs.left_active
+execute unless entity @s[predicate=inputs:backward] run tag @s remove inputs.backward_active
+execute unless entity @s[predicate=inputs:right] run tag @s remove inputs.right_active
+execute unless entity @s[predicate=inputs:sneak] run tag @s remove inputs.sneak_active
+execute unless entity @s[predicate=inputs:jump] run tag @s remove inputs.jump_active
+execute unless entity @s[predicate=inputs:sprint] run tag @s remove inputs.sprint_active
+execute unless entity @s[predicate=inputs:slot0] run tag @s remove inputs.slot0_active
+execute unless entity @s[predicate=inputs:slot1] run tag @s remove inputs.slot1_active
+execute unless entity @s[predicate=inputs:slot2] run tag @s remove inputs.slot2_active
+execute unless entity @s[predicate=inputs:slot3] run tag @s remove inputs.slot3_active
+execute unless entity @s[predicate=inputs:slot4] run tag @s remove inputs.slot4_active
+execute unless entity @s[predicate=inputs:slot5] run tag @s remove inputs.slot5_active
+execute unless entity @s[predicate=inputs:slot6] run tag @s remove inputs.slot6_active
+execute unless entity @s[predicate=inputs:slot7] run tag @s remove inputs.slot7_active
+execute unless entity @s[predicate=inputs:slot8] run tag @s remove inputs.slot8_active
