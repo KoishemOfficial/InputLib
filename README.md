@@ -14,10 +14,10 @@ Currently supports this input list:
 - Hotbar slots (1-9)
 
 > [!WARNING]
-> The only performance drawback is one tick @a selector call. Removing it will break inputs:<id>/once functions!
+> The only performance drawback is one tick @a selector call. Removing it will break inputs:\<id>/once functions!
 
 > [!IMPORTANT]
-> Also has one limitation: Only one inputs:<id>/once call can be made per function. Using multiple calls will result in only one function call, others will be ignored.
+> Also has one limitation: Only one inputs:\<id>/once call can be made per function. Using multiple calls will result in only one function call, others will be ignored.
 
 # Commands
 
